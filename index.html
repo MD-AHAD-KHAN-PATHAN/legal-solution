@@ -16,7 +16,63 @@
 <body>
 
     <header>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Services</a>
+                    <ul class="p-2">
+                      <li><a>Services 1</a></li>
+                      <li><a>Services 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Cases</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <img src="images/business.png" alt="" class="h-8">
+              <a class="btn btn-ghost normal-case text-xl">Justice</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li tabindex="0">
+                  <details>
+                    <summary>Services</summary>
+                    <ul class="p-2">
+                      <li><a>Services 1</a></li>
+                      <li><a>Services 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Cases</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact Us</a></li>
 
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+            </div>
+          </div>
+
+          <div class="hero min-h-screen" style="background-image: url('images/banner.png');">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <input type="text" placeholder="Search your services" class="input w-full max-w-xs" />
+                <a class="btn bg-[#B68C5A] text-white">Search</a>
+              </div>
+            </div>
+          </div>
     </header>
 
     <main>
@@ -24,7 +80,7 @@
     </main>
 
     <footer>
-        
+
     </footer>
     
 </body>
